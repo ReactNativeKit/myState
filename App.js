@@ -15,7 +15,7 @@ export default function App() {
       <Text>My name is {name}.</Text>
       <Text>His name is {person.name} and his age is {person.age}.{'\n'}</Text>
       <View>
-        <Button color="#92BA92" title='update state' onPress={clickHandler} />  
+        <Button color="#92BA92" title='update state' onPress={clickHandler}/>  
       </View>
     </View>
   );
