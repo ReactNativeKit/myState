@@ -12,8 +12,9 @@ export default function App() {
 
   return (
       <View style={styles.container}>
-      <Text>My name is {name}.</Text>
-      <Text>His name is {person.name} and his age is {person.age}.{'\n'}</Text>
+      <Text style={{fontSize:26}}>React Native ~ useState{'\n'}</Text>
+      <Text style={{fontSize:20}}>My name is {name}.</Text>
+      <Text style={{fontSize:20}}>His name is {person.name} and his age is {person.age}.{'\n'}</Text>
       <View>
         <Button color="#92BA92" title='update state' onPress={clickHandler}/>  
       </View>
